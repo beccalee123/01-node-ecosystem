@@ -1,12 +1,12 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Lab 01 Node Ecosystem
 
-### Author: Student/Group Name
+### Author: Becca Lee
 
 ### Links and Resources
-* [repo](http://xyz.com)
+* [repo](https://github.com/codefellows-seattle-javascript-401d28/01-node-ecosystem)
 * [travis](http://xyz.com)
 * [back-end](http://xyz.com)
 * [front-end](http://xyz.com)
