@@ -6,10 +6,11 @@
 ### Author: Becca Lee
 
 ### Links and Resources
+
+[![Build Status](https://www.travis-ci.com/beccalee123/01-node-ecosystem.svg?branch=master)]
 * [repo](https://github.com/codefellows-seattle-javascript-401d28/01-node-ecosystem)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [travis](https://www.travis-ci.com/beccalee123/01-node-ecosystem)
+* [server](https://becca-01-node-ecosystem.herokuapp.com/)
 
 ### Modules
 #### `modulename.js`
