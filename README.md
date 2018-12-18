@@ -13,31 +13,37 @@
 * [server](https://becca-01-node-ecosystem.herokuapp.com/)
 
 ### Modules
-#### `modulename.js`
+#### `greet.js`
 ##### Exported Values and Methods
+`greet.sayHello('name')`
+Used to return a concatenated string of "Hello" and a name
+`greet.sayHello('World')` returns "Hello World"
+`greet.sayHello('Becca', 'Heather')` returns null
+`greet.sayHello([array])` returns null
+`greet.sayHello({object})` returns null
+`greet.sayHello()` returns null
+`greet.sayHello(4)` returns null 
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - defined by ENV
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `/`
+  * Returns console logs from modules.
 
 #### Tests
 * How do you run tests?
+Tests are run using `npm run lint`, `npm run test` locally, and Travis once it's pushed up to GitHub/before it's deployed
 * What assertions were made?
+For the greeting modules, tests were made for the following:
+- User must enter at least one parameter
+- User must not enter multiple parameters
+- User must not enter a number
+- User must not enter an array
+- User must not enter an object
+- Success when a user enters a single string
 * What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
+- I think the assertions made so far cover the bases
