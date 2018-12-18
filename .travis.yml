@@ -1,4 +1,7 @@
-* text=auto
+language: node_js
+node_js:
+  - "9"
 
-# Align with eslint linebreak-style: [ "error", "unix" ]
-*.js text eol=lf
+script:
+  - npm run lint
+  - npm test
