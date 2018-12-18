@@ -3,7 +3,12 @@
   "version": "0.0.1",
   "description": "this will be sooooo cool",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {}
