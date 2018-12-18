@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "faker": "^4.1.0"
+    "eslint": "^5.10.0",
+    "faker": "^4.1.0",
+    "jest": "^23.6.0"
   }
 }
