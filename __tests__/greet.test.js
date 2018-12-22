@@ -10,7 +10,7 @@ const hello = require('../lib/greet.js');
 
 describe('Hello', () => {
   
-  it('requires on param', () => {
+  it('requires one param', () => {
     let message = hello.sayHello();
     expect(message).toBeNull();
   });
